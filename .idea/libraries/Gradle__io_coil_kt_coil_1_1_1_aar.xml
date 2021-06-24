@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: io.coil-kt:coil:1.1.1@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/5050fcbaf468f360d06b485b784e2d5f/jetified-coil-1.1.1/res" />
+      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/55ccd7d8213068a555b82daac8200ad7/jetified-coil-1.1.1/res" />
+      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/315fbd4dc02cb08a38c422fca4572e4f/jetified-coil-1.1.1/res" />
+      <root url="jar://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/6eae7a6b8f3b3078f5b2d658e5918694/jetified-coil-1.1.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/6eae7a6b8f3b3078f5b2d658e5918694/jetified-coil-1.1.1/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/6eae7a6b8f3b3078f5b2d658e5918694/jetified-coil-1.1.1/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../spadmobile110030/caches/modules-2/files-2.1/io.coil-kt/coil/1.1.1/8ccd1d9168824a63c50e01128ca817009058d39a/coil-1.1.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../spadmobile110030/caches/modules-2/files-2.1/io.coil-kt/coil/1.1.1/a698ab8d13bd1ae738e6b736f902e139937874b4/coil-1.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

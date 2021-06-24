@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-crashlytics-ktx:18.0.1@aar">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/f63a782990f1568526b6f815495392be/jetified-firebase-crashlytics-ktx-18.0.1/res" />
+      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/dde3eee5e4da9e25c80bb8c373686b51/jetified-firebase-crashlytics-ktx-18.0.1/res" />
+      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/dde3eee5e4da9e25c80bb8c373686b51/jetified-firebase-crashlytics-ktx-18.0.1/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/dde3eee5e4da9e25c80bb8c373686b51/jetified-firebase-crashlytics-ktx-18.0.1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../spadmobile110030/caches/modules-2/files-2.1/com.google.firebase/firebase-crashlytics-ktx/18.0.1/202a24dab5a7ff1503d82254289fcc9dcfc438ec/firebase-crashlytics-ktx-18.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../spadmobile110030/caches/modules-2/files-2.1/com.google.firebase/firebase-crashlytics-ktx/18.0.1/a534a2acb2b35e6b799fee7646d7009538d9248f/firebase-crashlytics-ktx-18.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
