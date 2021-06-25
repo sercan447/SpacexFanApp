@@ -37,12 +37,16 @@ class LaunchDetailFragment : Fragment() {
         arguments?.getString("launchId","")?.let {
             launchId = it
         }
-        Log.e("SRC_Launchdetail","LaunchId Id : "+launchId)
 
+        if(!launchId.isEmpty()){
 
-          viewModel.responseLaunchDetail.observe(requireActivity(), { launches ->
-              Log.e("SRC_Launchdetail","Launch : "+launches)
-          })
+            viewModel.getLaunchDetail(launchId)
+
+            viewModel.responseLaunchDetail.observe(requireActivity(), { launches ->
+                Log.e("SRC_Launchdetail","Launch : "+launches)
+                binding.txtName.text = launches.name
+            })
+        }
 
         return binding.root
     }

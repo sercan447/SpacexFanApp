@@ -26,13 +26,9 @@ constructor(val rocketRepository: RocketRepository) : ViewModel() {
         get() = _rocketAll
     val responseRocketDetail: LiveData<Rocket>
         get() = _responseDetail
-    //var responseRocketDetailId: LiveData<String>
-    //    set(value) = "5e9d0d95eda69955f709d1eb"
 
     init {
         getAllRockets()
-        //getRocket("5e9d0d95eda69955f709d1eb")
-        // getRocket(responseRocketDetailId)
 
     }
 
@@ -47,12 +43,12 @@ constructor(val rocketRepository: RocketRepository) : ViewModel() {
         }
     }//fun
 
-    private fun getRocket(id: String) = viewModelScope.launch {
+    public fun getRocket(id: String) = viewModelScope.launch {
 
         rocketRepository.getRocket(id).let { response ->
             if(response.isSuccessful){
                 _responseDetail.postValue(response.body())
-                 Log.e("SRC_RockViewModel","getRocket detail1: ${response.body()}")
+                // Log.e("SRC_RockViewModel","getRocket detail1: ${response.body()}")
             }else{
                 Log.e("SRC_RockViewModel","getRocket Error: ${response.code()}")
             }

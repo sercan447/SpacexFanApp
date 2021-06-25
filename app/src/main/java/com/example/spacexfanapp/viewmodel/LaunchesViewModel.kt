@@ -28,11 +28,9 @@ constructor(val launchesRepository: LaunchesRepository) : ViewModel() {
 
     val responseLaunchDetail: LiveData<Launches>
         get() = _responseDetail
-    
 
     init {
         getAllLaunches()
-        //getLaunchDetail("5eb87cd9ffd86e000604b32a")
     }
 
     private fun getAllLaunches() = viewModelScope.launch {
@@ -47,12 +45,12 @@ constructor(val launchesRepository: LaunchesRepository) : ViewModel() {
         }
     }//fun
 
-    private fun getLaunchDetail(idm:String) = viewModelScope.launch {
+    public fun getLaunchDetail(idm:String) = viewModelScope.launch {
 
         launchesRepository.getLaunch(idm).let { response ->
             if(response.isSuccessful){
                 _responseDetail.postValue(response.body())
-                Log.e("SRC_LncViewModel","getLaunch detail1 : ${response.body()}")
+                //Log.e("SRC_LncViewModel","getLaunch detail : ${response.body()}")
             }else{
                 Log.e("SRC_LncViewModel","getLaunch Error: ${response.code()}")
             }

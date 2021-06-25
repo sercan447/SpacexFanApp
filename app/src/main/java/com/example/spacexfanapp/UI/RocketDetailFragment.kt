@@ -37,12 +37,13 @@ class RocketDetailFragment : Fragment() {
          arguments?.getString("rocketId","")?.let {
              rocketId = it
          }
-        Log.e("SRC_Rocketdetail","Rocket Id : "+rocketId)
 
         if(!rocketId.isEmpty()){
 
+            viewModel.getRocket(rocketId)
             viewModel.responseRocketDetail.observe(requireActivity(), {rocket ->
                 Log.e("SRC_RocketDetailFrag","ROCKET SİNGLE : "+rocket.toString());
+                binding.txtName.text = rocket.name
             })
 
         }
