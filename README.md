@@ -1,12 +1,12 @@
 # SpacexFanApp
  Kotlin MVVM Pattern Spacex App
 
-Kotlin dili ile geliştirilme yapılarak aşağıdaki bağımlılıklar kullanarak geliştirilme yapılmıştır.
+Kotlin dili ile geliştirme yapılarak aşağıdaki bağımlılıklar kullanılmıştır.
 
-ViewModel
-LiveData
-Hilt (for dependency injection)
-Kotlin Coroutines
-Retrofit
-Room
-Navigation
+ViewModel,
+LiveData,
+Hilt (for dependency injection),
+Kotlin Coroutines,
+Retrofit,
+Room,
+Navigation,
