@@ -32,10 +32,10 @@ class MainActivity : AppCompatActivity() {
 
         setContentView(binding.root)
 
-        tabLayout = findViewById(R.id.tabLayout)
-        viewPager = findViewById(R.id.viewPager)
+       // tabLayout = findViewById(R.id.tabLayout)
+       // viewPager = findViewById(R.id.viewPager)
 
-        tabCreated()
+       // tabCreated()
 
          //Crashlytic Test Code
 
@@ -53,6 +53,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+    /*
     fun tabCreated(){
 
         tabLayout.addTab(tabLayout.newTab().setText("Launcher"))
@@ -79,5 +80,6 @@ class MainActivity : AppCompatActivity() {
 
         })
     }
+    */
 
 }

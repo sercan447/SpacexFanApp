@@ -28,6 +28,7 @@ constructor(val launchesRepository: LaunchesRepository) : ViewModel() {
 
     val responseLaunchDetail: LiveData<Launches>
         get() = _responseDetail
+    
 
     init {
         getAllLaunches()
@@ -39,9 +40,9 @@ constructor(val launchesRepository: LaunchesRepository) : ViewModel() {
         launchesRepository.getLaunches().let { response ->
             if(response.isSuccessful){
                 _response.postValue(response.body())
-                //Log.e("SERCAN","getLaunchesAll : ${response.body()}")
+                //Log.e("SRC_LncViewModel","getLaunchesAll : ${response.body()}")
             }else{
-                Log.e("SERCAN","getLaunches Error: ${response.code()}")
+                Log.e("SRC_LncViewModel","getLaunches Error: ${response.code()}")
             }
         }
     }//fun
@@ -51,9 +52,9 @@ constructor(val launchesRepository: LaunchesRepository) : ViewModel() {
         launchesRepository.getLaunch(idm).let { response ->
             if(response.isSuccessful){
                 _responseDetail.postValue(response.body())
-                Log.e("SERCAN","getLaunch detail1 : ${response.body()}")
+                Log.e("SRC_LncViewModel","getLaunch detail1 : ${response.body()}")
             }else{
-                Log.e("SERCAN","getLaunch Error: ${response.code()}")
+                Log.e("SRC_LncViewModel","getLaunch Error: ${response.code()}")
             }
         }
     }//fun

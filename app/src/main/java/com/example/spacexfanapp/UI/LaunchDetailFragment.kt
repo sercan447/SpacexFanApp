@@ -1,16 +1,27 @@
 package com.example.spacexfanapp.UI
 
 import android.os.Bundle
+import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.lifecycle.ViewModelProvider
 import com.example.spacexfanapp.R
+import com.example.spacexfanapp.databinding.FragmentDetailBinding
+import com.example.spacexfanapp.databinding.FragmentFavoritesBinding
+import com.example.spacexfanapp.databinding.FragmentLaunchDetailBinding
+import com.example.spacexfanapp.databinding.FragmentLauncherBinding
+import com.example.spacexfanapp.viewmodel.LaunchesViewModel
 
 
 class LaunchDetailFragment : Fragment() {
 
+    private var _binding : FragmentLaunchDetailBinding? = null
+    private val binding get() = _binding!!
+    private lateinit var viewModel: LaunchesViewModel
 
+    var launchId = ""
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -20,7 +31,20 @@ class LaunchDetailFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_launch_detail, container, false)
+        _binding = FragmentLaunchDetailBinding.inflate(inflater,container,false)
+        viewModel = ViewModelProvider(requireActivity()).get(LaunchesViewModel::class.java)
+
+        arguments?.getString("launchId","")?.let {
+            launchId = it
+        }
+        Log.e("SRC_Launchdetail","LaunchId Id : "+launchId)
+
+
+          viewModel.responseLaunchDetail.observe(requireActivity(), { launches ->
+              Log.e("SRC_Launchdetail","Launch : "+launches)
+          })
+
+        return binding.root
     }
 
     companion object {

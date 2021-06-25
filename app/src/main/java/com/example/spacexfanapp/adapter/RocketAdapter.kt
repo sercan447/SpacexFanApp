@@ -1,5 +1,6 @@
 package com.example.spacexfanapp.adapter
 
+import android.annotation.SuppressLint
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
@@ -9,12 +10,32 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
 import com.example.spacexfanapp.databinding.RocketLayoutAdapterBinding
+import com.example.spacexfanapp.models.launchers.Launches
 import com.example.spacexfanapp.models.rockets.Rocket
 
-class RocketAdapter : RecyclerView.Adapter<RocketAdapter.RocketViewHolder>(){
+class RocketAdapter(private val listener: RocketAdapter.IRocketItemListener) : RecyclerView.Adapter<RocketAdapter.RocketViewHolder>(){
 
-    inner class RocketViewHolder(val binding:RocketLayoutAdapterBinding):
-        RecyclerView.ViewHolder(binding.root)
+    interface IRocketItemListener {
+        fun onClickedRocket(Id: String)
+    }
+
+    inner class RocketViewHolder(val binding:RocketLayoutAdapterBinding,private val listener: RocketAdapter.IRocketItemListener)
+        : RecyclerView.ViewHolder(binding.root),View.OnClickListener{
+
+        private lateinit var rocket: Rocket
+        init {
+            binding.root.setOnClickListener(this)
+        }
+
+        @SuppressLint("SetTextI18n")
+        fun bind(item: Rocket) {
+            this.rocket = item
+        }
+        override fun onClick(v: View?) {
+            listener.onClickedRocket(rocket.id)
+        }
+
+        }
 
 
     private val diffCallback = object : DiffUtil.ItemCallback<Rocket>(){
@@ -42,7 +63,7 @@ class RocketAdapter : RecyclerView.Adapter<RocketAdapter.RocketViewHolder>(){
         }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RocketViewHolder {
-        return RocketViewHolder(RocketLayoutAdapterBinding.inflate(LayoutInflater.from(parent.context),parent,false))
+        return RocketViewHolder(RocketLayoutAdapterBinding.inflate(LayoutInflater.from(parent.context),parent,false),listener)
     }
 
     override fun onBindViewHolder(holder: RocketViewHolder, position: Int) {
@@ -57,8 +78,9 @@ class RocketAdapter : RecyclerView.Adapter<RocketAdapter.RocketViewHolder>(){
             }
 
             cardViewRocket.setOnClickListener(View.OnClickListener {
-                Log.e("SERCAN","get Rocket Id : "+currentTvshow.id);
+                Log.e("SRC_RocketAdapter","get Rocket Id : "+currentTvshow.id);
 
+                listener.onClickedRocket(currentTvshow.id)
             });
         }
 

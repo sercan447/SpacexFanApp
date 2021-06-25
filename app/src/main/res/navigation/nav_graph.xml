@@ -3,7 +3,22 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/launcherFragment">
+    app:startDestination="@id/viewPagerFragment">
+
+    <fragment
+        android:id="@+id/viewPagerFragment"
+        android:name="com.example.spacexfanapp.UI.ViewPagerFragment"
+        android:label="Launches"
+        tools:layout="@layout/fragment_view_pager" >
+
+        <action
+            android:id="@+id/action_launcherDetailsFragment"
+            app:destination="@id/launcherDetailFragment" />
+
+        <action
+            android:id="@+id/action_rocketDetailFragment"
+            app:destination="@id/rocketDetailFragment" />
+    </fragment>
 
     <fragment
         android:id="@+id/launcherFragment"
@@ -12,15 +27,38 @@
         tools:layout="@layout/fragment_launcher" >
 
         <action
-            android:id="@+id/action_launcherdetailsFragment"
-            app:destination="@id/launchDetailFragment" />
+            android:id="@+id/action_launcherDetailsFragment"
+            app:destination="@id/launcherDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/launcherDetailFragment"
+        android:name="com.example.spacexfanapp.UI.LaunchDetailFragment"
+        android:label="Launches"
+        tools:layout="@layout/fragment_launcher" >
     </fragment>
 
     <fragment
-        android:id="@+id/launchDetailFragment"
-        android:name="com.example.spacexfanapp.UI.LaunchDetailFragment"
-        android:label="Launch Detail"
-        tools:layout="@layout/fragment_launch_detail">
+        android:id="@+id/rocketFragment"
+        android:name="com.example.spacexfanapp.UI.RocketsFragment"
+        android:label="Rockets"
+        tools:layout="@layout/fragment_rockets" >
+        <action
+            android:id="@+id/action_rocketDetailFragment"
+            app:destination="@id/rocketDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/rocketDetailFragment"
+        android:name="com.example.spacexfanapp.UI.RocketDetailFragment"
+        android:label="Launches"
+        tools:layout="@layout/fragment_detail" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.example.spacexfanapp.UI.FavoritesFragment"
+        android:label="Favorites"
+        tools:layout="@layout/fragment_favorites" >
 
     </fragment>
+
 </navigation>

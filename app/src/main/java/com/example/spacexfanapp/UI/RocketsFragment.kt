@@ -7,9 +7,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.spacexfanapp.R
+import com.example.spacexfanapp.adapter.LaunchesAdapter
 import com.example.spacexfanapp.adapter.RocketAdapter
 import com.example.spacexfanapp.databinding.ActivityMainBinding
 import com.example.spacexfanapp.databinding.FragmentRocketsBinding
@@ -18,7 +20,7 @@ import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 
 @AndroidEntryPoint
-class RocketsFragment : Fragment() {
+class RocketsFragment : Fragment() , RocketAdapter.IRocketItemListener{
 
     private lateinit var rocketadapter:RocketAdapter
 
@@ -34,7 +36,7 @@ class RocketsFragment : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
 
-        rocketadapter = RocketAdapter()
+        rocketadapter = RocketAdapter(this)
         viewModel = ViewModelProvider(requireActivity()).get(RocketViewModel::class.java)
         _binding = FragmentRocketsBinding.inflate(inflater,container,false)
 
@@ -70,6 +72,12 @@ class RocketsFragment : Fragment() {
         fun newInstance(param1: String, param2: String) =
             RocketsFragment().apply {
             }
+    }
+
+    override fun onClickedRocket(Id: String) {
+        val bundle = Bundle()
+        bundle.putString("rocketId",Id)
+        findNavController().navigate(R.id.action_rocketDetailFragment,bundle)
     }
 }
 

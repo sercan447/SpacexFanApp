@@ -1,17 +1,26 @@
 package com.example.spacexfanapp.UI
 
 import android.os.Bundle
+import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.lifecycle.ViewModelProvider
 import com.example.spacexfanapp.R
+import com.example.spacexfanapp.databinding.FragmentDetailBinding
+import com.example.spacexfanapp.databinding.FragmentLaunchDetailBinding
 import com.example.spacexfanapp.viewmodel.RocketViewModel
 
 
 class RocketDetailFragment : Fragment() {
 
-    private lateinit var viewModelRocket: RocketViewModel
+    private lateinit var viewModel: RocketViewModel
+
+    private var _binding : FragmentDetailBinding? = null
+    private val binding get() = _binding!!
+
+    var rocketId = ""
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -22,20 +31,31 @@ class RocketDetailFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
-        viewModelRocket.responseRocketDetail.observe(requireActivity(), {rocket ->
+        _binding = FragmentDetailBinding.inflate(inflater,container,false)
+        viewModel = ViewModelProvider(requireActivity()).get(RocketViewModel::class.java)
 
-        })
+         arguments?.getString("rocketId","")?.let {
+             rocketId = it
+         }
+        Log.e("SRC_Rocketdetail","Rocket Id : "+rocketId)
 
+        if(!rocketId.isEmpty()){
 
-        return inflater.inflate(R.layout.fragment_detail, container, false)
+            viewModel.responseRocketDetail.observe(requireActivity(), {rocket ->
+                Log.e("SRC_RocketDetailFrag","ROCKET SİNGLE : "+rocket.toString());
+            })
+
+        }
+
+        return binding.root
     }
 
     companion object {
 
         @JvmStatic
-        fun newInstance(param1: String, param2: String) =
+        fun newInstance(param1: String) =
             RocketDetailFragment().apply {
-            return RocketDetailFragment()
+
             }
     }
 }

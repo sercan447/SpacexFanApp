@@ -45,7 +45,7 @@ class FavoritesFragment : Fragment() {
                     .addOnCompleteListener(requireActivity()) { task ->
                         if (task.isSuccessful) {
                             // Sign in success, update UI with the signed-in user's information
-                            Log.d("SERCAN", "signInWithEmail:success")
+                            Log.d("SRC_Fav", "signInWithEmail:success")
 
                             binding.txtHeader.visibility = View.GONE
                             binding.lrLoginScreen.visibility = View.GONE
@@ -54,7 +54,7 @@ class FavoritesFragment : Fragment() {
                             Toast.makeText(requireContext(), "Authentication success.", Toast.LENGTH_SHORT).show()
                         } else {
                             // If sign in fails, display a message to the user.
-                            Log.w("SERCAN", "signInWithEmail:failure", task.exception)
+                            Log.w("SRC_Fav", "signInWithEmail:failure", task.exception)
                             Toast.makeText(requireContext(), "Authentication failed.", Toast.LENGTH_SHORT).show()
 
                             binding.lrLoginScreen.visibility = View.VISIBLE
@@ -63,7 +63,7 @@ class FavoritesFragment : Fragment() {
                     }
 
             }catch (e:Exception) {
-                Log.w("SERCAN", "Error"+ e.toString())
+                Log.w("SRC_Fav", "Error"+ e.toString())
             }
         }
 

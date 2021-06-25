@@ -52,13 +52,9 @@ class LauncherFragment : Fragment() ,LaunchesAdapter.LaunchItemListener  {
 
         viewModel.responseLaunchesShow.observe(requireActivity(), { listLaunches ->
             launchesAdapter.launchesShows = listLaunches
-        })
-
-        /*
-        viewModel.responseLaunchDetail.observe(requireActivity(), { launches ->
 
         })
-        */
+
 
         return binding.root
     }
@@ -82,22 +78,11 @@ class LauncherFragment : Fragment() ,LaunchesAdapter.LaunchItemListener  {
     }
 
     override fun onClickedLaunch(Id: String) {
-        Log.e("SERCAN","tiklanan id "+Id)
-
         val bundle = Bundle()
         bundle.putString("launchId",Id)
 
+        findNavController().navigate(R.id.action_launcherDetailsFragment,bundle)
 
-        //val navHostFragment: NavHostFragment = findFragmentById(R.id.nav_host_fragment) as NavHostFragment
-        //       val navHostFragment: NavHostFragment =  Navigation.findNavController(requireActivity(),R.id.nav_host_fragment) as NavHostFragment
-        // val navController: NavController = navHostFragment.navController
-
-
-        //val navHostFragment: NavController =  Navigation.findNavController(requireActivity(),R.id.nav_host_fragment) as NavController
-        //    navHostFragment.navigate(R.id.action_launcherdetailsFragment)
-
-        //  findNavController().navigate(R.id.action_launchFragment_to_launchDetailFragment)
-      //  bundleOf("launchId" to Id)
     }
 
 }
