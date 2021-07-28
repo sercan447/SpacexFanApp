@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: io.coil-kt:coil-base:1.1.1@aar">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/1c14f45b22edb16bf86cc26d34819e0f/jetified-coil-base-1.1.1/AndroidManifest.xml" />
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/1c14f45b22edb16bf86cc26d34819e0f/jetified-coil-base-1.1.1/res" />
       <root url="jar://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/1c14f45b22edb16bf86cc26d34819e0f/jetified-coil-base-1.1.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/1c14f45b22edb16bf86cc26d34819e0f/jetified-coil-base-1.1.1/res" />
+      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/1c14f45b22edb16bf86cc26d34819e0f/jetified-coil-base-1.1.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$PROJECT_DIR$/../spadmobile110030/caches/modules-2/files-2.1/io.coil-kt/coil-base/1.1.1/cfa9ed109bea1da11a9184e898683bc094733d99/coil-base-1.1.1-javadoc.jar!/" />

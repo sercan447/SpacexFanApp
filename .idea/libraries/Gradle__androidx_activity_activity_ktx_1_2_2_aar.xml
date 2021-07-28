@@ -1,9 +1,6 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.activity:activity-ktx:1.2.2@aar">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/1fea051b6334ac8b7139f60bcc3db262/jetified-activity-ktx-1.2.2/res" />
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/473ee207a228d70b05aff859dd5c051f/jetified-activity-ktx-1.2.2/res" />
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/d072eec3040d8865ba7ecd4c4096f853/jetified-activity-ktx-1.2.2/res" />
       <root url="jar://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/70d9d7cda76b0b89094f738eca26380e/jetified-activity-ktx-1.2.2/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/70d9d7cda76b0b89094f738eca26380e/jetified-activity-ktx-1.2.2/res" />
       <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/70d9d7cda76b0b89094f738eca26380e/jetified-activity-ktx-1.2.2/AndroidManifest.xml" />

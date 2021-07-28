@@ -1,13 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.lifecycle:lifecycle-livedata-core:2.3.1@aar">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/97619abb265e872c5efc70cfc1a0b48b/lifecycle-livedata-core-2.3.1/res" />
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/3d7e2b08fb613a79459eb760e86e688c/lifecycle-livedata-core-2.3.1/res" />
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/bc5647c239de270306f8ae7a5996aacf/lifecycle-livedata-core-2.3.1/res" />
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/435ac3aad19f28d4a0a55287dc1d0254/lifecycle-livedata-core-2.3.1/res" />
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/001e2ecf90045ffd9aff954dfecf5331/lifecycle-livedata-core-2.3.1/AndroidManifest.xml" />
       <root url="jar://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/001e2ecf90045ffd9aff954dfecf5331/lifecycle-livedata-core-2.3.1/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/001e2ecf90045ffd9aff954dfecf5331/lifecycle-livedata-core-2.3.1/res" />
+      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/001e2ecf90045ffd9aff954dfecf5331/lifecycle-livedata-core-2.3.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

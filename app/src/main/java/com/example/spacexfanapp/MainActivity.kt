@@ -3,14 +3,9 @@ package com.example.spacexfanapp
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.view.ViewGroup
-import android.widget.Button
 import androidx.activity.viewModels
-import androidx.navigation.NavController
-import androidx.navigation.fragment.NavHostFragment
-import androidx.navigation.ui.AppBarConfiguration
 import androidx.viewpager.widget.ViewPager
-import com.example.spacexfanapp.adapter.TabsAdapter
+import com.example.spacexfanapp.database.AppDatabase
 import com.example.spacexfanapp.databinding.ActivityMainBinding
 import com.example.spacexfanapp.viewmodel.RocketViewModel
 import com.google.android.material.tabs.TabLayout
@@ -31,6 +26,18 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
 
         setContentView(binding.root)
+
+
+        /*
+       val db:AppDatabase = Room.databaseBuilder(applicationContext,AppDatabase::class.java,"favoriteEntity")
+           .allowMainThreadQueries()
+           .fallbackToDestructiveMigration()
+           .build()
+        */
+
+        for(t in AppDatabase.getDatabase(applicationContext).favoriteDao().getAll()){
+           Log.e("SRC","bb : "+t.name);
+        }
 
        // tabLayout = findViewById(R.id.tabLayout)
        // viewPager = findViewById(R.id.viewPager)

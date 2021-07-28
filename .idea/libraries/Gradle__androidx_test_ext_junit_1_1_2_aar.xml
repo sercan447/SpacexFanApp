@@ -1,13 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.test.ext:junit:1.1.2@aar">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/c76aad2c3a84d6e39d8e8744cb764f4f/jetified-junit-1.1.2/res" />
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/2dbc4e12befc46c44d3a2a681a89ea7f/jetified-junit-1.1.2/res" />
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/a8d8676b16605f12d72894190db1dacc/jetified-junit-1.1.2/res" />
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/78fbc41237b1d8648d70d80a9781c2b8/jetified-junit-1.1.2/res" />
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/fa96acb720f1ce6218ed06fb43bed228/jetified-junit-1.1.2/AndroidManifest.xml" />
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/fa96acb720f1ce6218ed06fb43bed228/jetified-junit-1.1.2/res" />
       <root url="jar://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/fa96acb720f1ce6218ed06fb43bed228/jetified-junit-1.1.2/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/fa96acb720f1ce6218ed06fb43bed228/jetified-junit-1.1.2/res" />
+      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/fa96acb720f1ce6218ed06fb43bed228/jetified-junit-1.1.2/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$PROJECT_DIR$/../spadmobile110030/caches/modules-2/files-2.1/androidx.test.ext/junit/1.1.2/c69cad63303f01767122a49e379c6121d6721a0b/junit-1.1.2-javadoc.jar!/" />

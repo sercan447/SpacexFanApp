@@ -4,13 +4,9 @@
       <root url="jar://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/b502aed2fc9f83225deae8fc357a292a/swiperefreshlayout-1.0.0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/6446666f8577c18012711c2f57530d26/swiperefreshlayout-1.0.0/res" />
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/ecf6baa1eefa32b89602572612727260/swiperefreshlayout-1.0.0/res" />
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/df0bb09b98601bed97a57877b0ae40b3/swiperefreshlayout-1.0.0/res" />
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/db6d1477637c25c7428365e9da634e3c/swiperefreshlayout-1.0.0/res" />
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/b502aed2fc9f83225deae8fc357a292a/swiperefreshlayout-1.0.0/AndroidManifest.xml" />
       <root url="jar://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/b502aed2fc9f83225deae8fc357a292a/swiperefreshlayout-1.0.0/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/b502aed2fc9f83225deae8fc357a292a/swiperefreshlayout-1.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/b502aed2fc9f83225deae8fc357a292a/swiperefreshlayout-1.0.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

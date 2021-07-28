@@ -1,13 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.cursoradapter:cursoradapter:1.0.0@aar">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/479d4311df440b865a35e11ae420994b/cursoradapter-1.0.0/res" />
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/47a3f0a1c5ee3e47b4a488b2a9a78471/cursoradapter-1.0.0/res" />
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/da223c0415a88ed3eec799894dd7d42e/cursoradapter-1.0.0/res" />
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/874f8ae2f8d790ce43a6489e2816285b/cursoradapter-1.0.0/res" />
+      <root url="jar://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/13f6ffc344e1589008f7f3e9e8a83485/cursoradapter-1.0.0/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/13f6ffc344e1589008f7f3e9e8a83485/cursoradapter-1.0.0/res" />
       <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/13f6ffc344e1589008f7f3e9e8a83485/cursoradapter-1.0.0/AndroidManifest.xml" />
-      <root url="jar://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/13f6ffc344e1589008f7f3e9e8a83485/cursoradapter-1.0.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

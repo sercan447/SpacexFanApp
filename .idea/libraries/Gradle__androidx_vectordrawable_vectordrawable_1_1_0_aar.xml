@@ -1,10 +1,6 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.vectordrawable:vectordrawable:1.1.0@aar">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/6c40188b17a20d0a0b47ee91c75af5ea/vectordrawable-1.1.0/res" />
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/da70fea6e2fb327f4f83de978e0b50c2/vectordrawable-1.1.0/res" />
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/0036c4ac3b6d84e617c006553d9d4dd4/vectordrawable-1.1.0/res" />
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/add08d1a201800efc795c942bcba8a65/vectordrawable-1.1.0/res" />
       <root url="jar://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/74ba12e8370f819807a3a6b7854e9ba1/vectordrawable-1.1.0/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/74ba12e8370f819807a3a6b7854e9ba1/vectordrawable-1.1.0/res" />
       <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/74ba12e8370f819807a3a6b7854e9ba1/vectordrawable-1.1.0/AndroidManifest.xml" />

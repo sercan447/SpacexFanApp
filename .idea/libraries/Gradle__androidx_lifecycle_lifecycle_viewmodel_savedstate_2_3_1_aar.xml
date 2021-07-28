@@ -1,10 +1,6 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1@aar">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/6133601118baf7ce74ac0a8bc7422520/jetified-lifecycle-viewmodel-savedstate-2.3.1/res" />
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/7462eac6f16b929c1d634cd52fe0dcd6/jetified-lifecycle-viewmodel-savedstate-2.3.1/res" />
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/13af71891f9750ae53ecf7d7d54a0646/jetified-lifecycle-viewmodel-savedstate-2.3.1/res" />
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/b4cafc50a3328b1c651b6b066ba70500/jetified-lifecycle-viewmodel-savedstate-2.3.1/res" />
       <root url="jar://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/d34aec144b5b079e0f2905f70b6f53b8/jetified-lifecycle-viewmodel-savedstate-2.3.1/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/d34aec144b5b079e0f2905f70b6f53b8/jetified-lifecycle-viewmodel-savedstate-2.3.1/res" />
       <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/d34aec144b5b079e0f2905f70b6f53b8/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml" />

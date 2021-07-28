@@ -1,7 +1,6 @@
 <component name="libraryTable">
   <library name="Gradle: com.google.android.gms:play-services-measurement-impl:19.0.0@aar">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/b666e6addd0b192f8252efefb39e4185/jetified-play-services-measurement-impl-19.0.0/res" />
       <root url="jar://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/019d697832f9136c677f86335d97ebfb/jetified-play-services-measurement-impl-19.0.0/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/019d697832f9136c677f86335d97ebfb/jetified-play-services-measurement-impl-19.0.0/res" />
       <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/019d697832f9136c677f86335d97ebfb/jetified-play-services-measurement-impl-19.0.0/AndroidManifest.xml" />

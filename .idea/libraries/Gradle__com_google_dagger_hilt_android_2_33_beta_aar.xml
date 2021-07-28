@@ -1,12 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.google.dagger:hilt-android:2.33-beta@aar">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/a457eab7db065061b2b771e6bfb3c901/jetified-hilt-android-2.33-beta/res" />
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/cbb424fbb25914e45f21d0058f3f538f/jetified-hilt-android-2.33-beta/res" />
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/42193e95b3855f6612d1a9f92202763a/jetified-hilt-android-2.33-beta/res" />
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/a2ee6224d31b9858935e58ef1686cbe7/jetified-hilt-android-2.33-beta/AndroidManifest.xml" />
       <root url="jar://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/a2ee6224d31b9858935e58ef1686cbe7/jetified-hilt-android-2.33-beta/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/a2ee6224d31b9858935e58ef1686cbe7/jetified-hilt-android-2.33-beta/res" />
+      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/a2ee6224d31b9858935e58ef1686cbe7/jetified-hilt-android-2.33-beta/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$PROJECT_DIR$/../spadmobile110030/caches/modules-2/files-2.1/com.google.dagger/hilt-android/2.33-beta/50a864e64a930641cb9110f95dbf71cacf35e5cb/hilt-android-2.33-beta-javadoc.jar!/" />

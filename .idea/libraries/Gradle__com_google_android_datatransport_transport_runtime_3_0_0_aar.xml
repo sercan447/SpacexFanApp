@@ -1,7 +1,6 @@
 <component name="libraryTable">
   <library name="Gradle: com.google.android.datatransport:transport-runtime:3.0.0@aar">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/6c78de9f8e6af36b0a4cc5da34d8fc98/jetified-transport-runtime-3.0.0/res" />
       <root url="jar://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/5d4e524f5b52fdad7ede9a9dc778e2b3/jetified-transport-runtime-3.0.0/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/5d4e524f5b52fdad7ede9a9dc778e2b3/jetified-transport-runtime-3.0.0/res" />
       <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/5d4e524f5b52fdad7ede9a9dc778e2b3/jetified-transport-runtime-3.0.0/AndroidManifest.xml" />

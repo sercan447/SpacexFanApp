@@ -1,10 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.google.firebase:firebase-analytics:19.0.0@aar">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/5f4062dbdb8fa3ec98c78443728cfdc4/jetified-firebase-analytics-19.0.0/res" />
+      <root url="jar://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/7a829854ed0a562b89ae15aefa489e24/jetified-firebase-analytics-19.0.0/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/7a829854ed0a562b89ae15aefa489e24/jetified-firebase-analytics-19.0.0/res" />
       <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/7a829854ed0a562b89ae15aefa489e24/jetified-firebase-analytics-19.0.0/AndroidManifest.xml" />
-      <root url="jar://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/7a829854ed0a562b89ae15aefa489e24/jetified-firebase-analytics-19.0.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$PROJECT_DIR$/../spadmobile110030/caches/modules-2/files-2.1/com.google.firebase/firebase-analytics/19.0.0/c0d58b8efa926b2c607984c54fb3d274490badd1/firebase-analytics-19.0.0-javadoc.jar!/" />

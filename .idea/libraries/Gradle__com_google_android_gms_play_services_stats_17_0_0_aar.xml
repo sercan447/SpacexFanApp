@@ -1,10 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.google.android.gms:play-services-stats:17.0.0@aar">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/8b1cfc99b3cc25a253a1f471dbf22a5c/jetified-play-services-stats-17.0.0/res" />
       <root url="jar://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/73b48e001fbc608e4d9e59b1084aeb2e/jetified-play-services-stats-17.0.0/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/73b48e001fbc608e4d9e59b1084aeb2e/jetified-play-services-stats-17.0.0/AndroidManifest.xml" />
       <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/73b48e001fbc608e4d9e59b1084aeb2e/jetified-play-services-stats-17.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/73b48e001fbc608e4d9e59b1084aeb2e/jetified-play-services-stats-17.0.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

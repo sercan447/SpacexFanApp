@@ -1,7 +1,6 @@
 <component name="libraryTable">
   <library name="Gradle: com.google.firebase:firebase-common:20.0.0@aar">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/456e93d6172340e1d7e181ae78b8ea38/jetified-firebase-common-20.0.0/res" />
       <root url="jar://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/850c77260f3729ad2b6d9aba6ea65500/jetified-firebase-common-20.0.0/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/850c77260f3729ad2b6d9aba6ea65500/jetified-firebase-common-20.0.0/res" />
       <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/850c77260f3729ad2b6d9aba6ea65500/jetified-firebase-common-20.0.0/AndroidManifest.xml" />

@@ -1,13 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.versionedparcelable:versionedparcelable:1.1.1@aar">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/6631310c57563a7cb3029ce2f2216cd6/versionedparcelable-1.1.1/res" />
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/da97bed488e513ef1362103ae27fc522/versionedparcelable-1.1.1/res" />
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/61009a47b0e3c0532ffb791894c50861/versionedparcelable-1.1.1/res" />
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/10ea249cecdc2c0e203ecf12afbfdd59/versionedparcelable-1.1.1/res" />
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/90de165eb9a0064ced2eab4c8cd229b9/versionedparcelable-1.1.1/AndroidManifest.xml" />
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/90de165eb9a0064ced2eab4c8cd229b9/versionedparcelable-1.1.1/res" />
       <root url="jar://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/90de165eb9a0064ced2eab4c8cd229b9/versionedparcelable-1.1.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/90de165eb9a0064ced2eab4c8cd229b9/versionedparcelable-1.1.1/res" />
+      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/90de165eb9a0064ced2eab4c8cd229b9/versionedparcelable-1.1.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

@@ -1,13 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.localbroadcastmanager:localbroadcastmanager:1.0.0@aar">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/11dec527fdc6347c4d6a42bffc6503c9/localbroadcastmanager-1.0.0/res" />
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/d166392675147311003c1ef3200b436c/localbroadcastmanager-1.0.0/res" />
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/0774360c91ee1b5af042d277bfd5706d/localbroadcastmanager-1.0.0/res" />
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/ba1f606490c4bc3b5c21fd9ea2d12018/localbroadcastmanager-1.0.0/res" />
+      <root url="jar://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/df34bfb63d2270a0b155a6a347147884/localbroadcastmanager-1.0.0/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/df34bfb63d2270a0b155a6a347147884/localbroadcastmanager-1.0.0/res" />
       <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/df34bfb63d2270a0b155a6a347147884/localbroadcastmanager-1.0.0/AndroidManifest.xml" />
-      <root url="jar://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/df34bfb63d2270a0b155a6a347147884/localbroadcastmanager-1.0.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

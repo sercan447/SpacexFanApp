@@ -7,19 +7,18 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
-import androidx.core.view.isVisible
-import androidx.transition.Visibility
+import androidx.navigation.fragment.findNavController
+import androidx.recyclerview.widget.GridLayoutManager
 import com.example.spacexfanapp.R
+import com.example.spacexfanapp.adapter.FavoriteAdapter
+import com.example.spacexfanapp.database.AppDatabase
 import com.example.spacexfanapp.databinding.FragmentFavoritesBinding
-import com.example.spacexfanapp.databinding.FragmentLauncherBinding
 import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.auth.FirebaseAuthInvalidCredentialsException
 import com.google.firebase.auth.FirebaseUser
-import com.google.firebase.ktx.Firebase
-import com.google.firebase.ktx.initialize
 
-class FavoritesFragment : Fragment() {
+class FavoritesFragment : Fragment()  , FavoriteAdapter.IFavoriteItemListener{
 
+    private lateinit var favoriteAdapter: FavoriteAdapter
     private lateinit var auth: FirebaseAuth
 
     private var _binding : FragmentFavoritesBinding? = null
@@ -33,8 +32,19 @@ class FavoritesFragment : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
 
+        favoriteAdapter = FavoriteAdapter(this)
+
+        favoriteAdapter.favoriteShows = AppDatabase.getDatabase(context).favoriteDao().getAll()
+
         _binding = FragmentFavoritesBinding.inflate(inflater,container,false)
 
+        binding.recyclerviewFavorites.apply {
+            adapter = favoriteAdapter
+            //layoutManager = LinearLayoutManager(requireContext(), LinearLayoutManager.VERTICAL,false)
+            layoutManager =  GridLayoutManager(getActivity(), 2, GridLayoutManager.HORIZONTAL, false);
+
+            //setHasFixedSize(true)
+        }
         // Initialize Firebase Auth
          auth = FirebaseAuth.getInstance()
 
@@ -77,5 +87,30 @@ class FavoritesFragment : Fragment() {
             FavoritesFragment().apply {
 
             }
+    }
+
+    override fun onResume() {
+        super.onResume()
+    }
+
+    override fun onStart() {
+        super.onStart()
+
+        if(auth.currentUser != null){
+            Log.e("SRC","bilgi : "+ auth.uid)
+            binding.txtHeader.visibility = View.GONE
+            binding.lrLoginScreen.visibility = View.GONE
+            binding.recyclerviewFavorites.visibility = View.VISIBLE
+        }else{
+            binding.lrLoginScreen.visibility = View.VISIBLE
+            binding.recyclerviewFavorites.visibility = View.GONE
+        }
+
+    }
+    override fun onClickedFavorite(Id: String) {
+
+        val bundle = Bundle()
+        bundle.putString("rocketId",Id)
+        findNavController().navigate(R.id.action_rocketDetailFragment,bundle)
     }
 }

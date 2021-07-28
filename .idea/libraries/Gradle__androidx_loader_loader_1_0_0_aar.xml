@@ -1,10 +1,6 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.loader:loader:1.0.0@aar">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/991b0516aee401381739d6548481605b/loader-1.0.0/res" />
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/6d0751aeaf8d72f48d059dfb198b55a0/loader-1.0.0/res" />
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/8c4018bf7dfad08764c993b50faf63b6/loader-1.0.0/res" />
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/e136b20db9dfa7859f010ce9c3d18c80/loader-1.0.0/res" />
       <root url="jar://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/f64b2efa39f5545d592eb44261613582/loader-1.0.0/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/f64b2efa39f5545d592eb44261613582/loader-1.0.0/res" />
       <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/f64b2efa39f5545d592eb44261613582/loader-1.0.0/AndroidManifest.xml" />

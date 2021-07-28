@@ -4,13 +4,9 @@
       <root url="jar://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/a4f4467007fc881b2a0e17c8a9f35677/jetified-activity-1.2.3/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/9e0b5f523de90c039ad26f4fa531c679/jetified-activity-1.2.3/res" />
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/cc102ea29e2e37dbe60d772360f7e63b/jetified-activity-1.2.3/res" />
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/106f826dee993251bb56c4c5d8cf5fbb/jetified-activity-1.2.3/res" />
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/69033a4ee70ac4c91de1d6376d588528/jetified-activity-1.2.3/res" />
+      <root url="jar://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/a4f4467007fc881b2a0e17c8a9f35677/jetified-activity-1.2.3/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/a4f4467007fc881b2a0e17c8a9f35677/jetified-activity-1.2.3/res" />
       <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/a4f4467007fc881b2a0e17c8a9f35677/jetified-activity-1.2.3/AndroidManifest.xml" />
-      <root url="jar://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/a4f4467007fc881b2a0e17c8a9f35677/jetified-activity-1.2.3/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

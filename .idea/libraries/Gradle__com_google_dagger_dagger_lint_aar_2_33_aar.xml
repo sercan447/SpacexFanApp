@@ -1,12 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.google.dagger:dagger-lint-aar:2.33@aar">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/8e0ceddbfe7ab2dc3f9ea628ba43003e/jetified-dagger-lint-aar-2.33/res" />
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/a442c5487b03ac888e6278c5ea5c5e4b/jetified-dagger-lint-aar-2.33/res" />
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/8fdffe6b4ac65ea3892c4e6bca8be728/jetified-dagger-lint-aar-2.33/res" />
       <root url="jar://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/56c952bd233e33a17fe17d41ff0516a5/jetified-dagger-lint-aar-2.33/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/56c952bd233e33a17fe17d41ff0516a5/jetified-dagger-lint-aar-2.33/AndroidManifest.xml" />
       <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/56c952bd233e33a17fe17d41ff0516a5/jetified-dagger-lint-aar-2.33/res" />
+      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/56c952bd233e33a17fe17d41ff0516a5/jetified-dagger-lint-aar-2.33/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

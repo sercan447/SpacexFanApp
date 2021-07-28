@@ -1,10 +1,6 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.test:monitor:1.3.0@aar">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/45306608394efdfcff087dcceadd060f/monitor-1.3.0/res" />
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/d046d9a051241e046532f98b8627359b/monitor-1.3.0/res" />
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/cf22fb9605aad4b4c8675f8254de84c2/monitor-1.3.0/res" />
-      <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/e78661b06209f211b0c8cc19f2270163/monitor-1.3.0/res" />
       <root url="jar://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/3729c3a3b0569753f4a95911211d42b5/monitor-1.3.0/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/3729c3a3b0569753f4a95911211d42b5/monitor-1.3.0/res" />
       <root url="file://$PROJECT_DIR$/../spadmobile110030/caches/transforms-2/files-2.1/3729c3a3b0569753f4a95911211d42b5/monitor-1.3.0/AndroidManifest.xml" />
