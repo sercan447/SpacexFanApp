@@ -54,8 +54,6 @@ class LauncherFragment : Fragment() ,LaunchesAdapter.LaunchItemListener  {
             launchesAdapter.launchesShows = listLaunches
 
         })
-
-
         return binding.root
     }
 

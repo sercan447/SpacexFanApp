@@ -31,20 +31,11 @@ class FavoritesFragment : Fragment()  , FavoriteAdapter.IFavoriteItemListener{
     }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-
+            Log.e("SRC","->onCreateView()")
         favoriteAdapter = FavoriteAdapter(this)
-
-        favoriteAdapter.favoriteShows = AppDatabase.getDatabase(context).favoriteDao().getAll()
 
         _binding = FragmentFavoritesBinding.inflate(inflater,container,false)
 
-        binding.recyclerviewFavorites.apply {
-            adapter = favoriteAdapter
-            //layoutManager = LinearLayoutManager(requireContext(), LinearLayoutManager.VERTICAL,false)
-            layoutManager =  GridLayoutManager(getActivity(), 2, GridLayoutManager.HORIZONTAL, false);
-
-            //setHasFixedSize(true)
-        }
         // Initialize Firebase Auth
          auth = FirebaseAuth.getInstance()
 
@@ -91,12 +82,20 @@ class FavoritesFragment : Fragment()  , FavoriteAdapter.IFavoriteItemListener{
 
     override fun onResume() {
         super.onResume()
+        Log.e("SRC","->onResume()")
+
+        favoriteAdapter.favoriteShows = AppDatabase.getDatabase(context).favoriteDao().getAll()
+        binding.recyclerviewFavorites.apply {
+            adapter = favoriteAdapter
+            layoutManager =  GridLayoutManager(getActivity(), 2, GridLayoutManager.HORIZONTAL, false);
+        }
     }
 
     override fun onStart() {
         super.onStart()
+        Log.e("SRC","->onStart()")
 
-        if(auth.currentUser != null){
+        if(auth.currentUser!!.isEmailVerified){
             Log.e("SRC","bilgi : "+ auth.uid)
             binding.txtHeader.visibility = View.GONE
             binding.lrLoginScreen.visibility = View.GONE
@@ -110,7 +109,7 @@ class FavoritesFragment : Fragment()  , FavoriteAdapter.IFavoriteItemListener{
     override fun onClickedFavorite(Id: String) {
 
         val bundle = Bundle()
-        bundle.putString("rocketId",Id)
-        findNavController().navigate(R.id.action_rocketDetailFragment,bundle)
+        bundle.putString("launchId",Id)
+        findNavController().navigate(R.id.action_launcherDetailsFragment,bundle)
     }
 }
